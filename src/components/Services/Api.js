@@ -21,6 +21,7 @@ const Fetchapi = () => {
   return (
     <div>
       <Header />
+
       <div className="card-wrap">
         {product.map((item, index) => {
           return (
